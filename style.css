@@ -1,0 +1,418 @@
+:root {
+    --dark-background-font-color: rgb(255, 232, 198);
+    --light-background-font-color: rgb(67,50,53);
+    --background-color-light: rgb(253, 232, 214);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: var(--dark-background-font-color);
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* section, div {
+    outline: 1px solid grey;
+} */
+
+body {
+    min-width: 380px;
+    background-color: var(--background-color-light);
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+
+/**********************/
+/*      HEADER        */
+/**********************/
+
+.page-header {
+    background: rgb(56,48,55);
+    background: linear-gradient(325deg, rgba(56,48,55,1) 0%, rgb(160, 73, 36) 91%);
+    display: inline-block;
+    height: 110px;
+    width: 100%;
+}
+
+.page-heading-1 {
+    margin: 1rem 0 .5rem 2rem;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+.header-menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-menu li:first-child {
+    margin-left: 1.5rem;
+}
+
+.header-menu a {
+    color: var(--dark-background-font-color);
+    padding: .5rem;
+    font-size: 1rem;
+    transition: .3s;
+    text-shadow: 5px 5px 10px black;
+    text-decoration: none;
+}
+
+.header-menu a:hover {
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px var(--dark-background-font-color);
+    
+}
+
+.header-menu-item {
+    margin: .5rem ;
+}
+
+
+/**********************/
+/*      BANNER        */
+/**********************/
+
+
+.main-banner {
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, .3) 0%, rgba(0, 0, 0, .3)), url(./assets/bookstorebanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+    display: inline-block;
+    height: 60vh;
+    width: 100%;
+    box-shadow: 5px 10px 10px black;
+}
+
+.main-banner-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;    
+    height: 100%;
+    text-shadow: 3px 3px 5px black;
+}
+
+.banner-heading {
+    margin: 1rem;
+}
+
+.banner-p {
+    margin: .5rem;
+}
+
+.cta-button {
+    margin: 1rem;
+    padding: .8rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 0px 25px white;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    transition: .5s;
+    letter-spacing: 1px;
+}
+
+.cta-button:hover {
+    background-color: rgb(240, 132, 0);
+    text-shadow: 2px 2px 4px black;
+}
+
+/**********************/
+/*      PRODUCTS      */
+/**********************/
+
+.products-container {
+    color: var(--light-background-font-color);
+    margin-bottom: 2rem;
+    box-shadow: 5px 10px 10px rgb(67, 50, 53);
+    padding-bottom: 1rem;
+}
+
+.products-container-1 {
+    color: var(--light-background-font-color);
+    box-shadow: 5px 10px 10px rgb(67, 50, 53);
+    padding-bottom: 1rem;
+}
+
+.page-heading-2 {
+    padding: 3rem 2rem 0 2rem;
+    font-weight: 700;
+}
+
+.book-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    
+}
+.book-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.book-img {
+    height: 250px;
+    margin: 1.5rem 1rem .5rem 1rem;
+    box-shadow: 4px 4px 10px rgb(67, 50, 53);
+}
+
+.book-link {
+    text-decoration: none;
+    color: var(--light-background-font-color);
+    font-weight: 700;
+    transition: .3s;
+}
+
+.book-link:hover {
+    color: rgb(156, 57, 0);
+    text-shadow: 2px 2px 8px rgb(67, 50, 53);
+}
+
+
+
+
+/****************************/
+/*        BESTSELLERS       */
+/****************************/
+
+.bestsellers-container {
+    color: var(--light-background-font-color);
+    background-color: var(--background-color-light);
+    padding-bottom: 1rem;
+}
+
+.page-heading-3 {
+    padding: 1rem 2rem;
+    font-weight: 700;
+}
+
+
+/****************************/
+/*       ABOUT US           */
+/****************************/
+
+
+.about-container {
+    background-color: rgb(32, 13, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: 5px 10px 10px rgb(67, 50, 53);
+}
+
+.page-heading-4 {
+    text-align: center;
+}
+
+.about-section-1 {
+    display: flex;
+    flex-direction: column
+}
+
+.about-title-1 {
+    width: 60vw;
+    text-align: center;
+}
+
+.about-title-1 > h2, 
+.about-title-1 > p {
+    padding: 1rem;
+    line-height: 2rem;
+}
+.about-image {
+    width: 60vw;
+}
+
+.footer-container {
+    background: linear-gradient(280deg, rgba(56,48,55,1) 0%, rgb(109, 49, 23) 91%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.footer-container > p {
+    color: var(--dark-background-font-color);
+    padding-top: 5rem;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgb(31, 15, 0);
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer-menu-item {
+    margin: .5rem;
+}
+
+.footer-menu a {
+    color: var(--dark-background-font-color);
+    text-decoration: none;
+    padding: .5rem;
+    font-size: 1rem;
+    transition: .3s;
+    text-shadow: 3px 3px 5px black;
+}
+
+.footer-menu a:hover {
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px;
+}
+
+/****************************/
+/*      RESPONSIVE          */
+/****************************/
+
+
+@media screen and (min-width: 800px) {
+    .page-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 110px;
+    }
+
+    .page-heading-1 {
+        margin-bottom: 1rem;
+    }
+
+    .header-menu-item {
+        margin: .5rem 1rem;
+    }
+
+    .header-menu li:first-child {
+        margin-left: 0;
+    }
+
+    .header-menu a {
+        font-size: 1.4rem;
+    }
+
+    .main-banner {
+        height: 92vh;
+    }
+
+    .main-banner-content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 60%;
+        margin-left: 40%;
+        height: 100%;
+    }
+
+    .banner-heading {
+        font-size: 3rem;
+        margin: 1rem;
+    }
+    
+    .banner-p {
+        font-size: 1.5rem;
+        margin: .5rem;
+    }
+
+    .cta-button {
+        margin: 1.5rem .5rem;
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+        border: none;
+        box-shadow: 0px 0px 25px white;
+        cursor: pointer;
+        background-color: red;
+        color: white;
+        transition: .3s;
+    }
+
+    .book-container {
+        margin: 1rem;
+    }
+    
+    .book-img {
+        height: 300px;
+        margin: 2rem;
+    }
+
+    /****************************/
+    /*       ABOUT US           */
+    /****************************/
+
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .page-heading-4 {
+        font-size: 2.5rem;
+    }
+
+    .about-section-1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-title-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 30vw;
+        text-align: start;
+        padding: 1rem;
+    }
+
+    .about-title-1 h2, p {
+        padding: 2rem;
+        line-height: 2rem;
+    }
+
+    .image-container {
+        display: flex;
+        align-items: center;
+        padding: 2rem 8rem 2rem 3rem;
+    }
+    .about-image {
+        width: 30vw;
+    }
+
+    .footer-container {
+        padding-top: 4em;
+        height: 230px;
+    }
+
+}
