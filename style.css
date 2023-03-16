@@ -417,5 +417,42 @@ h2 {
 }
 
 @media screen and (min-width: 576px) {
+    .page-header {
+        height: 250px;
+        width: 100%;
+    }
     
+    .page-heading-1 {
+        margin: 1rem 0 .5rem 2rem;
+        text-shadow: 2px 2px 5px black;
+    }
+    
+    
+    .header-menu {
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .header-menu li:first-child {
+        margin-left: 1.5rem;
+    }
+    
+    .header-menu a {
+        color: var(--dark-background-font-color);
+        padding: .5rem;
+        font-size: 1rem;
+        transition: .3s;
+        text-shadow: 5px 5px 10px black;
+        text-decoration: none;
+    }
+    
+    .header-menu a:hover {
+        border-radius: 3px;
+        box-shadow: 2px 2px 5px var(--dark-background-font-color);
+    }
+    
+    .header-menu-item {
+        margin: .5rem ;
+    }
 }
