@@ -414,5 +414,8 @@ h2 {
         padding-top: 4em;
         height: 230px;
     }
+}
 
+@media screen and (min-width: 576px) {
+    
 }
