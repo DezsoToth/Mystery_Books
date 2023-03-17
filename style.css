@@ -301,7 +301,7 @@ h2 {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 110px;
+        height: 100px;
     }
 
     .page-heading-1 {
@@ -416,7 +416,7 @@ h2 {
     }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
     .page-header {
         height: 250px;
         width: 100%;
