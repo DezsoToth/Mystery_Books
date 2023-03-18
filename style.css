@@ -410,11 +410,6 @@ h2 {
     .about-image {
         width: 30vw;
     }
-
-    .footer-container {
-        padding-top: 4em;
-        height: 230px;
-    }
 }
 
 @media screen and (max-width: 576px) {
