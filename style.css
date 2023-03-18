@@ -256,7 +256,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 140px;
+    height: 150px;
     width: 100%;
     padding: 1rem;
 }
@@ -452,5 +452,14 @@ h2 {
     
     .header-menu-item {
         margin: .5rem ;
+    }
+
+    .footer-container {
+        height: auto;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        text-align: center;
     }
 }
