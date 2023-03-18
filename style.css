@@ -263,7 +263,7 @@ h2 {
 
 .footer-container > p {
     color: var(--dark-background-font-color);
-    padding-top: 5rem;
+    padding-top: 3rem;
     text-align: center;
     text-shadow: 3px 3px 5px rgb(31, 15, 0);
 }
