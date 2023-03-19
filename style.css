@@ -272,6 +272,7 @@ h2 {
     display: flex;
     justify-content: center;
     list-style: none;
+    padding-top: 2rem;
 }
 
 .footer-menu-item {
