@@ -223,7 +223,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     padding: 6rem 2rem;
-    box-shadow: 5px 10px 10px rgb(67, 50, 53);
+    box-shadow: 5px 10px 10px rgb(67, 50, 53), 5px 10px 10px black inset;
 }
 
 .page-heading-4 {
