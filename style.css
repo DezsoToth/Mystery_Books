@@ -294,6 +294,38 @@ h2 {
     box-shadow: 2px 2px 5px;
 }
 
+.poweredbydtp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-white);
+    width: 100%;
+    height: 38px;
+    background-color: rgb(31, 15, 0);
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+}
+
+.poweredbydtp button {
+    font-size: 1.3rem;
+    padding: 0 2px;
+    background-color: var(--main-darkgrey);
+    color: var(--main-white);
+    border: none;
+    transition: .5s;
+}
+
+.poweredbydtp button:hover {
+    text-shadow: 1px 1px 4px rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+
+.powered {
+    font-size: .7rem;
+    letter-spacing: 2px;
+}
+
 /****************************/
 /*      RESPONSIVE          */
 /****************************/
