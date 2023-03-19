@@ -259,6 +259,7 @@ h2 {
     height: 150px;
     width: 100%;
     padding: 1rem;
+    box-shadow: 5px 10px 10px rgb(31, 15, 0) inset;
 }
 
 .footer-container > p {
