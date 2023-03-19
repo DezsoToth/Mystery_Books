@@ -99,7 +99,7 @@ h2 {
     display: inline-block;
     height: 60vh;
     width: 100%;
-    box-shadow: 5px 10px 10px black, 5px 10px 10px rgb(31, 15, 0) inset;
+    box-shadow: 5px 10px 10px black, 0px 10px 10px rgb(31, 15, 0) inset;
 }
 
 .main-banner-content-container {
