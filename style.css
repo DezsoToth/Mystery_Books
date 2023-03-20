@@ -299,7 +299,7 @@ h2 {
     align-items: center;
     color: var(--main-white);
     width: 100%;
-    height: 38px;
+    height: 45px;
     background: linear-gradient(358deg, rgb(160, 73, 36) 0%, rgba(56,48,55,1) 90%);
     position: fixed;
     z-index: 10;
