@@ -317,9 +317,7 @@ h2 {
 }
 
 .poweredbydtp button:hover {
-    text-shadow: 1px 1px 4px rgb(0, 0, 0);
-    font-size: 1.2rem;
-    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
 .powered {
@@ -432,7 +430,7 @@ h2 {
         padding: 1rem;
     }
 
-    .about-title-1 h2, p {
+    .about-title-1 h2  {
         padding: 2rem;
         line-height: 2rem;
     }
