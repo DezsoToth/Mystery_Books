@@ -313,6 +313,7 @@ h2 {
     color: var(--main-white);
     border: none;
     transition: .5s;
+    cursor: pointer;
 }
 
 .poweredbydtp button:hover {
