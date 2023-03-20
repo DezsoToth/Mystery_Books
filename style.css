@@ -135,7 +135,7 @@ h2 {
 }
 
 .cta-button:hover {
-    background-color: rgb(240, 132, 0);
+    background-color: rgb(156, 57, 0);
     text-shadow: 2px 2px 4px black;
 }
 
@@ -177,7 +177,7 @@ h2 {
 .book-img {
     height: 250px;
     margin: 1.5rem 1rem .5rem 1rem;
-    box-shadow: 4px 4px 10px rgb(67, 50, 53);
+    box-shadow: 3px 3px 3px white, 5px 5px 8px ;
 }
 
 .book-link {
