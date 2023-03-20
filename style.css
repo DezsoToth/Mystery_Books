@@ -76,7 +76,7 @@ h2 {
 
 .header-menu a:hover {
     border-radius: 3px;
-    box-shadow: 2px 2px 5px var(--dark-background-font-color);
+    box-shadow: 3px 3px 6px var(--dark-background-font-color);
     
 }
 
