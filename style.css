@@ -344,6 +344,10 @@ h2 {
         margin-bottom: 1rem;
     }
 
+        .header-menu {
+        padding-bottom: 0;
+    }
+
     .header-menu-item {
         margin: .5rem 1rem;
     }
