@@ -45,7 +45,6 @@ h2 {
 .page-header {
     background: linear-gradient(325deg, rgba(56,48,55,1) 0%, rgb(160, 73, 36) 91%);
     display: inline-block;
-    height: 110px;
     width: 100%;
 }
 
