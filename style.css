@@ -58,6 +58,7 @@ h2 {
     list-style: none;
     display: flex;
     justify-content: flex-start;
+    padding-bottom: 10px;
 }
 
 .header-menu li:first-child {
@@ -323,6 +324,7 @@ h2 {
 .powered {
     font-size: .7rem;
     letter-spacing: 2px;
+    padding: 0;
 }
 
 /****************************/
@@ -335,7 +337,7 @@ h2 {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 100px;
+        height: 80px;
     }
 
     .page-heading-1 {
