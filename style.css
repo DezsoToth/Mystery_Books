@@ -308,12 +308,12 @@ h2 {
     z-index: 15;
     transition: .3s;
 }
-/* 
+
 
 .footer-back a:hover {
     color: var(--white);
     box-shadow: 0px 0px 15px var(--background-color-light) ;
-} */
+} 
 
 .poweredbydtp {
     display: flex;
