@@ -301,7 +301,7 @@ h2 {
     align-items: center;
     width: 30px;
     height: 30px;
-    color: var(--orange);
+    color: var(--dark-background-font-color);
     position: fixed;
     bottom: 75px;
     right: 20px;
