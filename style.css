@@ -299,8 +299,8 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     color: var(--dark-background-font-color);
     position: fixed;
     bottom: 75px;
