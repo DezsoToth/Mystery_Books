@@ -294,7 +294,7 @@ h2 {
 }
 
 .footer-back a {
-    border: 2px solid var(--background-color-light);
+    border: 2px solid var(--dark-background-font-color);
     border-radius: 50%;
     display: flex;
     justify-content: center;
