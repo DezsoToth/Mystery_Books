@@ -10,6 +10,7 @@ html {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: var(--dark-background-font-color);
+    scroll-behavior: smooth;
 }
 
 *, *:before, *:after {
@@ -301,19 +302,17 @@ h2 {
     align-items: center;
     width: 40px;
     height: 40px;
-    color: var(--dark-background-font-color);
+    text-decoration: none;
+    color: var(--light-background-font-color);
     position: fixed;
     bottom: 75px;
     right: 20px;
     z-index: 15;
     transition: .3s;
+    box-shadow: 0px 0px 15px black;
+    background: var(--dark-background-font-color);
 }
 
-
-.footer-back a:hover {
-    color: var(--white);
-    box-shadow: 0px 0px 15px var(--dark-background-font-color) ;
-} 
 
 .poweredbydtp {
     display: flex;
