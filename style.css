@@ -293,6 +293,28 @@ h2 {
     box-shadow: 2px 2px 5px;
 }
 
+.footer-back a {
+    border: 2px solid var(--background-color-light);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    color: var(--orange);
+    position: fixed;
+    bottom: 75px;
+    right: 20px;
+    z-index: 15;
+    transition: .3s;
+}
+/* 
+
+.footer-back a:hover {
+    color: var(--white);
+    box-shadow: 0px 0px 15px var(--background-color-light) ;
+} */
+
 .poweredbydtp {
     display: flex;
     justify-content: center;
