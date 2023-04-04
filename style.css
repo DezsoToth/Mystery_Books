@@ -328,7 +328,7 @@ h2 {
     bottom: 0;
 }
 
-.poweredbydtp button {
+.poweredbydtp .button {
     font-size: 1.1rem;
     padding: 0 2px;
     background-color: var(--main-darkgrey);
@@ -338,7 +338,7 @@ h2 {
     cursor: pointer;
 }
 
-.poweredbydtp button:hover {
+.poweredbydtp .button:hover {
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
