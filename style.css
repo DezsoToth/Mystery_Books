@@ -330,6 +330,7 @@ h2 {
 
 .poweredbydtp .button {
     font-size: 1.1rem;
+    text-decoration: none;
     padding: 0 2px;
     background-color: var(--main-darkgrey);
     color: var(--main-white);
