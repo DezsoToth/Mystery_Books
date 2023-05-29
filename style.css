@@ -313,6 +313,10 @@ h2 {
     background: var(--dark-background-font-color);
 }
 
+.footer-back a:hover {
+    color: darkorange;
+}
+
 
 .poweredbydtp {
     display: flex;
