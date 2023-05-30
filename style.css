@@ -24,7 +24,7 @@ html {
 } */
 
 body {
-    min-width: 300px;
+    min-width: 275px;
     background-color: var(--background-color-light);
 }
 
@@ -315,6 +315,7 @@ h2 {
 
 .footer-back a:hover {
     color: red;
+    box-shadow: none;
 }
 
 
