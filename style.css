@@ -331,25 +331,23 @@ h2 {
     bottom: 0;
 }
 
-.poweredbydtp .button {
-    font-size: 1.1rem;
-    text-decoration: none;
-    padding: 0 2px;
-    background-color: var(--main-darkgrey);
-    color: var(--main-white);
-    border: none;
+.poweredbydtp a {
+    font-size: 16px;
+    padding: 0 8px;
+    color: #e97c00;
     transition: .5s;
     cursor: pointer;
+    border: none;
+    text-decoration: none;
 }
-
-.poweredbydtp .button:hover {
-    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  
+.poweredbydtp a:hover {
+    color: #ffaa48;
+    text-shadow: 0px 0px 8px white;
 }
 
 .powered {
-    font-size: .7rem;
-    letter-spacing: 2px;
-    padding: 0;
+    font-size: 12px;
 }
 
 /****************************/
